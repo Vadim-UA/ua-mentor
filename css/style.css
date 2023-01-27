@@ -1361,9 +1361,8 @@ body {
 }
 
 @media (max-width: 878px) {
-  .join {
-    background: url("../img/join/Yar.webp") 50%/cover no-repeat;
-  }
+  .no-webp .join{
+    background: url("../img/join/hmil.jpg") 50%/cover no-repeat; }
 
   .join__title {
     color: #FDFDFD;
@@ -2332,3 +2331,8 @@ body {
 }
 
 .webp .join{ background: url(../img/join/bg.webp) 50%/cover no-repeat; }
+
+@media (max-width: 878px){
+
+  .webp .join{ background: url(../img/join/hmil.webp) 50%/cover no-repeat; }
+}
