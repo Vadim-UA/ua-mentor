@@ -1360,7 +1360,7 @@ body {
   }
 }
 
-.webp .join{ background: url(../img/join/bg.webp) 50%/cover no-repeat; }
+/* .webp .join{ background: url(../img/join/bg.webp) 50%/cover no-repeat; } */
 
 @media (max-width: 878px) {
   .join {
