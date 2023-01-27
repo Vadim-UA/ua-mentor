@@ -1249,7 +1249,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: 30px;
+    gap: 40px;
   }
 }
 
@@ -1361,8 +1361,9 @@ body {
 }
 
 @media (max-width: 878px) {
-  .no-webp .join{
-    background: url("../img/join/hmil.jpg") 50%/cover no-repeat; }
+  .join {
+    background: url("../img/join/yar.webp") 50%/cover no-repeat;
+  }
 
   .join__title {
     color: #FDFDFD;
@@ -1599,6 +1600,10 @@ body {
 
   .item-teachers-photo__wrapper {
     max-width: none;
+  }
+
+  .item-teachers-photo__wrapper:not(:last-child) {
+    margin-bottom: 5px;
   }
 }
 
@@ -2331,8 +2336,3 @@ body {
 }
 
 .webp .join{ background: url(../img/join/bg.webp) 50%/cover no-repeat; }
-
-@media (max-width: 878px){
-
-  .webp .join{ background: url(../img/join/hmil.webp) 50%/cover no-repeat; }
-}
