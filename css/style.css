@@ -1362,7 +1362,7 @@ body {
 
 @media (max-width: 878px) {
   .join {
-    background: url("../img/join/yar.webp") 50%/cover no-repeat;
+    background: #10B582;
   }
 
   .join__title {
